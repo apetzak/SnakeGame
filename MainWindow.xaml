@@ -1,0 +1,14 @@
+﻿<Window x:Class="SnakeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SnakeGame"
+        mc:Ignorable="d"
+        Title="Snake" Height="600" Width="720" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize">
+    <Grid x:Name="grid" Background="Gray">
+        <Canvas x:Name="canvas" HorizontalAlignment="Center" Height="500" VerticalAlignment="Top" Width="700" Background="Black"/>
+        <Label x:Name="lblLength" Content="Length: 1" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="35" Width="210" Panel.ZIndex="1"/>
+        <Label x:Name="lblHighScore" Content="HighScore: 0" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="35" Width="280" Panel.ZIndex="1"/>
+    </Grid>
+</Window>
